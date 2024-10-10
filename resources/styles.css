@@ -19,7 +19,7 @@ nav a{
     padding: 10px;
 }
 
-.hero{
+#hero{
     max-width: 100%;
     padding: 25%;
     display: block;
@@ -30,13 +30,13 @@ nav a{
     height: auto;
 }
 
-.hero h2, p{
+#hero h2, p{
     display: flex;
     justify-content: center;
     opacity: 100%;
 }
 
-.books h2{
+#books h2{
     margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ nav a{
 #book-images{
     display: grid;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 10%;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     
@@ -57,15 +57,14 @@ nav a{
     padding: 1.75em;
 }
 
-.contact h3, p{
+#contact h3, p{
     display: flex;
     justify-content: center;
 }
 
-.contact img{
+#contact img{
 display: block;
-  margin-left: auto;
-  margin-right: auto;
+margin: 0 auto 5%;
   width: 30px;
   border-radius: 15%;
 }
