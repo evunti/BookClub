@@ -1,8 +1,14 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
     
 }
-
 nav{
-    
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
 }
