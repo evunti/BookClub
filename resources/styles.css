@@ -1,14 +1,56 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: rgb(74, 113, 74);
     
+}
+body{
+    max-width: 100%;
+    max-height: 100%;
 }
 nav{
     display: flex;
     justify-content: flex-end;
+    
 }
 nav a{
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
+}
+
+.hero{
+    max-width: 100%;
+    padding: 25%;
+    display: block;
+    justify-content: center;
+    background-image: url(./images/hero\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+.hero h2, p{
+    display: flex;
+    justify-content: center;
+    opacity: 100%;
+}
+
+.books h2{
+    display: flex;
+    justify-content: center;
+}
+
+#book-images{
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+
+#book-images > img {
+    height: 300px;
+    width: 200px;
+    padding: 1.75em;
 }
