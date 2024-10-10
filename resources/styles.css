@@ -8,6 +8,7 @@ body{
     max-height: 100%;
 }
 nav{
+    padding: 1rem;
     display: flex;
     justify-content: flex-end;
     
@@ -36,6 +37,7 @@ nav a{
 }
 
 .books h2{
+    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
@@ -54,3 +56,17 @@ nav a{
     width: 200px;
     padding: 1.75em;
 }
+
+.contact h3, p{
+    display: flex;
+    justify-content: center;
+}
+
+.contact img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  border-radius: 15%;
+}
+
