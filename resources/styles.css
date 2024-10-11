@@ -30,7 +30,7 @@ nav a{
     nav{
     padding: 2px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     }
     nav a{
         text-decoration: none;
