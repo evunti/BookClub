@@ -52,8 +52,9 @@ p {
 }
 
 #book-images > img {
-  height: 300px;
-  width: 200px;
+  /* height: 300px;
+  width: 200px; */
+  width: 100%;
   padding: 1.75em;
 }
 
@@ -113,8 +114,8 @@ p {
   }
 
   #book-images > img {
-    height: 200px;
-    width: 130px;
+    /* height: 200px;
+    width: 130px; */
     padding: 1em;
   }
 }
